@@ -1,0 +1,31 @@
+{
+  "name": "find-up-path",
+  "repository": "github:fabiospampinato/find-up-path",
+  "description": "Find the path of the first file matching a given name, walking the filesystem upwards.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "tsex clean",
+    "compile": "tsex compile",
+    "compile:watch": "tsex compile --watch",
+    "test": "tsex test",
+    "test:watch": "tsex test --watch",
+    "prepublishOnly": "tsex prepare"
+  },
+  "keywords": [
+    "find",
+    "up",
+    "file",
+    "folder",
+    "path"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "fava": "^0.3.2",
+    "tsex": "^3.2.0",
+    "typescript": "^5.3.3"
+  }
+}
