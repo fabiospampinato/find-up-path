@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/find-up-path",
   "description": "Find the path of the first file matching a given name, walking the filesystem upwards.",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
